@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #f7f7f7;
@@ -16,23 +18,23 @@ body {
 /* Footer */
 
 footer{
-   background-color:#2c3742;
+   background-color:#fff;
    box-shadow:inset 0px 0px 3px #111;
-   color:#fff;
    font-size:14px;
    line-height:25px;
    padding:10px 0px 10px 0px;
    bottom: 0px;
+    color: #850000;
 }
 
 footer a{
-   color:#eee;
+    color: #850000;
    text-decoration:none;
    border-bottom:1px dotted #888;
 }
 
 footer a:hover{
-   color:#aaa;
+    color: #850000;
    text-decoration:none;
    border:0px;
 }
@@ -53,7 +55,8 @@ footer .copy{
 
 .header{
    height:50px;
-   background-color: #2c3742;
+   background-color: #fff;
+    color: #850000;
 }
 
 .header .logo h1{
@@ -63,12 +66,13 @@ footer .copy{
 }
 
 .header .logo h1 a{
-   color:#fff;
-   font-family: 'Open Sans Condensed', sans-serif;
+    color: #850000;
+   /*font-family: 'Open Sans Condensed', sans-serif;*/
+    font-family: 'Berkshire Swash', cursive;
 }
 
 .header .logo h1 a:hover{
-   color:#fff;
+    color: #850000;
    text-decoration:none;
    border:0px;
 }
@@ -221,10 +225,10 @@ footer .copy{
    background:#fff;
    border-radius:10px;
    padding:10px;
-   border-left:1px solid #eee;
+/*   border-left:1px solid #eee;
    border-top:1px solid #eee;
    border-right:2px solid #eee;
-   border-bottom:2px solid #eee; 
+   border-bottom:2px solid #eee; */
 }
 
 .content-box-large {
@@ -287,10 +291,11 @@ footer .copy{
 }
 
 .sidebar .nav > li > a {
-	font-size: 14px;
+    font-family: 'Berkshire Swash', cursive;
+	font-size: 18px;
 	line-height: 20px;
 	padding: 15px 15px;
-	color: #999;
+    color: #850000;
 	display: block;
    font-weight:bold;
    background:none;
@@ -307,7 +312,7 @@ footer .copy{
 	font-size: 13px;
 	line-height: 20px;
 	padding: 8px 10px 8px 40px;
-	color: #999;
+    color: #850000;
    background:#fff;
 	display: block;
 	text-decoration: none;
@@ -381,7 +386,8 @@ footer .copy{
 }
 
 body {
-  background-color: #eff0f3;
+  /*background-color: #eff0f3;*/
+    background : url('../images/wallpaper.jpg');
 }
 
 /** Login & Signup **/
